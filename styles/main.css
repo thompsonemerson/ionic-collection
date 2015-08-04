@@ -1,0 +1,88 @@
+/*
+* Ionic Collection v0.0.0
+* Copyright 2015, Emerson Thompson
+* Free to use under the MIT license.
+* 04/08/2015
+*/
+
+
+/* Geral & Reset
+/* ---------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+/* Header
+/* ---------------------------------- */
+header {
+  position: relative;
+  padding: 230px 0 25px;
+  background: url(../images/ionic_logo-header.png) top center no-repeat #4e8ef7;
+}
+
+  header input {
+    width: 100%;
+    min-height: 45px;
+    padding: 10px;
+    font-size: 1.8em;
+    text-align: center;
+    color: #4e8ef7;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    box-sizing: border-box;
+  }
+
+
+
+/* Main
+/* ---------------------------------- */
+main {
+  position: relative;
+  padding: 50px 0;
+}
+  main .list {
+    margin-bottom: 25px;
+  }
+
+    main .list .title-category {
+      font-size: 2em;
+      color: #4e8ef7;
+      margin-bottom: 10px;
+    }
+
+    main .list .item {
+      display: block;
+      padding: 15px;
+      color: #000000;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #EEEEEE;
+      background-color: #EEEEEE;
+    }
+    main .list .item:hover,
+    main .list .item:focus {
+      background-color: #FFFFFF;
+    }

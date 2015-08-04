@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="IonicCollectionApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Ionic Collection</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+	<!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body ng-controller="AppCtrl">
+	
+	<header>
+		<div class="container">
+			<input type="search" placeholder="Find here what you need..." ng-model="search">
+		</div>
+	</header>
+	
+	<main class="container">
+		
+		<div class="list" ng-repeat="category in collection | filter: search">
+			<h2 class="title-category">{{ category.name }}</h2>
+			<a ng-repeat="item in category.itens | filter: search" ng-href="{{ item.url }}" class="item" target="_blank">
+				{{ item.title }}
+			</a>
+		</div>
+
+	</main>
+	
+	<script src="/bower_components/angular/angular.min.js"></script>
+	<script src="scripts/app.js"></script>
+</body>
+</html>

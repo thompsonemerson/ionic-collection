@@ -1,0 +1,12 @@
+{
+  "name": "ionic-collection",
+  "version": "0.0.0",
+  "authors": [
+    "Emerson Thompson <thompson@studiodev.com.br>"
+  ],
+  "description": "Easy Collection of Ionic",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "~1.4.3"
+  }
+}

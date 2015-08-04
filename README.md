@@ -1,1 +1,1 @@
-# ionic-collection
+# Ionic Collection
