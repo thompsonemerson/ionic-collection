@@ -26,12 +26,20 @@ body {
 
 .container {
   display: block;
-  width: 100%;
+  width: 90%;
   max-width: 960px;
   margin: 0 auto;
 }
 
-
+.share {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+@media( max-width: 1200px ){
+  .share { position: absolute; }
+}
 
 /* Header
 /* ---------------------------------- */

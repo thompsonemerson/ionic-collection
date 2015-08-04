@@ -22,8 +22,7 @@
 		ga('send', 'pageview');
 	</script>
 </head>
-<body ng-controller="AppCtrl">
-	
+<body ng-controller="AppCtrl">	
 	<header>
 		<div class="container">
 			<input type="search" placeholder="Find here what you need..." ng-model="search">
@@ -31,15 +30,26 @@
 	</header>
 	
 	<main class="container">
-		
 		<div class="list" ng-repeat="category in collection | filter: search">
 			<h2 class="title-category">{{ category.name }}</h2>
 			<a ng-repeat="item in category.itens | filter: search" ng-href="{{ item.url }}" class="item" target="_blank">
 				{{ item.title }}
 			</a>
 		</div>
-
 	</main>
+
+	<div class="share">
+		<div class="item">
+			<iframe src="https://ghbtns.com/github-btn.html?user=thompsonemerson&repo=ionic-collection&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+		</div>
+		<div class="item">
+			<iframe src="https://ghbtns.com/github-btn.html?user=thompsonemerson&repo=ionic-collection&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+		</div>
+		<div class="item">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-text="Ionic Framework Collection Articles" data-via="thompsonweb" data-size="large" data-related="Ionicframework">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</div>
+	</div>
 	
 	<script src="bower_components/angular/angular.min.js"></script>
 	<script src="scripts/app.js"></script>
