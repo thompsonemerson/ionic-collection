@@ -106,6 +106,8 @@ angular.module('IonicCollectionApp', [])
             { title: 'Using Remote Logging with Ionic and IBM MobileFirst', url: 'http://www.raymondcamden.com/2015/03/31/using-remote-logging-with-ionic-and-ibm-mobilefirst' },
             { title: 'Working with IBM MobileFirst and Ionic – Bootstrapping', url: 'http://www.raymondcamden.com/2015/03/24/working-with-ibm-mobilefirst-and-ionic-bootstraping' },
             { title: 'How To Use PouchDB + SQLite For Local Storage In Your Ionic App', url: 'http://gonehybrid.com/how-to-use-pouchdb-sqlite-for-local-storage-in-your-ionic-app/' },
+            { title: 'HTML5 Offline Mobile App Using Ionic and PouchDB', url: 'http://www.webspeaks.in/2015/03/html5-offline-mobile-app-using-ionic-pouchdb.html' },
+            { title: 'Offline Data Synchronization in Ionic', url: 'http://frontmag.no/artikler/utvikling/offline-data-synchronization-ionic' },
             { title: 'Upload Camera Images To Firebase Using Ionic Framework', url: 'https://www.airpair.com/ionic-framework/posts/ionic-firebase-camera-app' },
             { title: 'Build a Real Time Hybrid App with Ionic & Firebase', url: 'https://www.airpair.com/angularjs/posts/build-a-real-time-hybrid-app-with-ionic-firebase' },
             { title: 'Using Couchbase in Your Ionic Framework Application Part 1', url: 'http://blog.couchbase.com/using-couchbase-in-your-ionic-framework-application-part-1' },
