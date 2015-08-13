@@ -90,6 +90,7 @@ angular.module('IonicCollectionApp', [])
         { 
           name: 'Backend as a Service',
           itens: [
+            { title: 'Dicas para trabalhar com o Ionic Framework – PouchDB', url: 'http://frontinbrazil.com.br/pouchdb/' },
             { title: 'Use Parse Core In Your Ionic Framework Mobile Apps', url: 'https://blog.nraboy.com/2015/04/use-parse-core-in-ionic-framework-mobile-apps/' },
             { title: 'Sign Into Firebase With Facebook Using Ionic Framework', url: 'https://blog.nraboy.com/2015/03/sign-into-firebase-with-facebook-using-ionic-framework/' },
             { title: 'Syncing Data With Firebase Using Ionic Framework', url: 'https://blog.nraboy.com/2014/12/syncing-data-firebase-using-ionic-framework/' },
