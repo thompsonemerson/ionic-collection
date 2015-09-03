@@ -244,6 +244,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Integrating Google Maps with an Ionic Application', url: 'http://www.joshmorony.com/integrating-google-maps-with-an-ionic-application/' },
             { title: 'Using Views Events To Create JavaScript Pure Ionic Splash Screen', url: 'http://www.gajotres.net/using-views-events-to-create-javascript-pure-ionic-splash-screen/' },
             { title: 'Ionic Framework | Get Page Height & Width', url: 'http://www.gajotres.net/ionic-framework-get-page-height-width/' },
+            { title: 'Ultimate AngularJS and Ionic performance cheat sheet', url: 'http://julienrenaux.fr/2015/08/24/ultimate-angularjs-and-ionic-performance-cheat-sheet/' },
           ]
         },
     ];
