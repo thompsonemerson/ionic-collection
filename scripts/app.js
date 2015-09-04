@@ -112,6 +112,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Upload Camera Images To Firebase Using Ionic Framework', url: 'https://www.airpair.com/ionic-framework/posts/ionic-firebase-camera-app' },
             { title: 'Build a Real Time Hybrid App with Ionic & Firebase', url: 'https://www.airpair.com/angularjs/posts/build-a-real-time-hybrid-app-with-ionic-firebase' },
             { title: 'Using Couchbase in Your Ionic Framework Application Part 1', url: 'http://blog.couchbase.com/using-couchbase-in-your-ionic-framework-application-part-1' },
+            { title: 'Implementing the Master Detail Pattern in Ionic with Firebase', url: 'http://www.joshmorony.com/implementing-the-master-detail-pattern-in-ionic-with-firebase/' },
           ]
         },
         { 
