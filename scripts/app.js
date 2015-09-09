@@ -215,6 +215,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Useful Cordova Plugins For Your Ionic Application & Examples', url: 'http://www.gajotres.net/useful-cordova-plugins-for-your-ionic-application-examples/' },
             { title: 'Using A Pin Dialog In Your Ionic Framework Mobile App', url: 'https://blog.nraboy.com/2015/07/using-a-pin-dialog-in-your-ionic-framework-mobile-app/' },
             { title: 'Monitor Device Battery Status Using Ionic Framework', url: 'https://blog.nraboy.com/2015/07/monitor-device-battery-status-using-ionic-framework/' },
+            { title: 'How To Add Sound Effects To Your Ionic App With Native Audio', url: 'http://gonehybrid.com/how-to-add-sound-effects-to-your-ionic-app-with-native-audio/' },
           ]
         },
         { 
@@ -246,6 +247,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Using Views Events To Create JavaScript Pure Ionic Splash Screen', url: 'http://www.gajotres.net/using-views-events-to-create-javascript-pure-ionic-splash-screen/' },
             { title: 'Ionic Framework | Get Page Height & Width', url: 'http://www.gajotres.net/ionic-framework-get-page-height-width/' },
             { title: 'Ultimate AngularJS and Ionic performance cheat sheet', url: 'http://julienrenaux.fr/2015/08/24/ultimate-angularjs-and-ionic-performance-cheat-sheet/' },
+            { title: 'Animating Elements in your Ionic App', url: 'http://blog.ionic.io/animating-elements-in-your-ionic-app/' },
           ]
         },
     ];
