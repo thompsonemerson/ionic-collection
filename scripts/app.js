@@ -248,6 +248,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Ionic Framework | Get Page Height & Width', url: 'http://www.gajotres.net/ionic-framework-get-page-height-width/' },
             { title: 'Ultimate AngularJS and Ionic performance cheat sheet', url: 'http://julienrenaux.fr/2015/08/24/ultimate-angularjs-and-ionic-performance-cheat-sheet/' },
             { title: 'Animating Elements in your Ionic App', url: 'http://blog.ionic.io/animating-elements-in-your-ionic-app/' },
+            { title: 'Cordova + Ionic in Visual Studio - 101 Tutorial [Part I]', url: 'http://binarylies.ghost.io/cordova-ionic-in-visual-studio/' },
           ]
         },
     ];
