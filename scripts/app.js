@@ -216,6 +216,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Using A Pin Dialog In Your Ionic Framework Mobile App', url: 'https://blog.nraboy.com/2015/07/using-a-pin-dialog-in-your-ionic-framework-mobile-app/' },
             { title: 'Monitor Device Battery Status Using Ionic Framework', url: 'https://blog.nraboy.com/2015/07/monitor-device-battery-status-using-ionic-framework/' },
             { title: 'How To Add Sound Effects To Your Ionic App With Native Audio', url: 'http://gonehybrid.com/how-to-add-sound-effects-to-your-ionic-app-with-native-audio/' },
+            { title: '7 Steps to Building a Hybrid Apple Watch App', url: 'http://developer.telerik.com/featured/7-steps-to-building-a-hybrid-apple-watch-app/' },
           ]
         },
         { 
@@ -249,6 +250,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Ultimate AngularJS and Ionic performance cheat sheet', url: 'http://julienrenaux.fr/2015/08/24/ultimate-angularjs-and-ionic-performance-cheat-sheet/' },
             { title: 'Animating Elements in your Ionic App', url: 'http://blog.ionic.io/animating-elements-in-your-ionic-app/' },
             { title: 'Cordova + Ionic in Visual Studio - 101 Tutorial [Part I]', url: 'http://binarylies.ghost.io/cordova-ionic-in-visual-studio/' },
+            { title: '8 Reasons Why I’m Glad I Switched to the Ionic Framework', url: 'http://www.joshmorony.com/8-reasons-why-im-glad-i-switched-to-the-ionic-framework/' },
           ]
         },
     ];
