@@ -251,6 +251,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Animating Elements in your Ionic App', url: 'http://blog.ionic.io/animating-elements-in-your-ionic-app/' },
             { title: 'Cordova + Ionic in Visual Studio - 101 Tutorial [Part I]', url: 'http://binarylies.ghost.io/cordova-ionic-in-visual-studio/' },
             { title: '8 Reasons Why I’m Glad I Switched to the Ionic Framework', url: 'http://www.joshmorony.com/8-reasons-why-im-glad-i-switched-to-the-ionic-framework/' },
+            { title: 'Hello Modules: Your Third Ionic Framework App', url: 'http://mcgivery.com/hello-modules-your-third-ionic-framework-app/' },
           ]
         },
     ];
