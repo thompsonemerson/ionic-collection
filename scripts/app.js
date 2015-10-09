@@ -217,6 +217,8 @@ angular.module('IonicCollectionApp', [])
             { title: 'Monitor Device Battery Status Using Ionic Framework', url: 'https://blog.nraboy.com/2015/07/monitor-device-battery-status-using-ionic-framework/' },
             { title: 'How To Add Sound Effects To Your Ionic App With Native Audio', url: 'http://gonehybrid.com/how-to-add-sound-effects-to-your-ionic-app-with-native-audio/' },
             { title: '7 Steps to Building a Hybrid Apple Watch App', url: 'http://developer.telerik.com/featured/7-steps-to-building-a-hybrid-apple-watch-app/' },
+            { title: 'Facebook Native login with Ionic Framework', url: 'https://ionicthemes.com/learn/about/native-facebook-login-with-ionic-framework' },
+            { title: 'Google+ login with Ionic Framework', url: 'https://ionicthemes.com/learn/about/google-plus-login-with-ionic-framework' },
           ]
         },
         { 
