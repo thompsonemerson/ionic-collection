@@ -256,6 +256,14 @@ angular.module('IonicCollectionApp', [])
             { title: 'Hello Modules: Your Third Ionic Framework App', url: 'http://mcgivery.com/hello-modules-your-third-ionic-framework-app/' },
           ]
         },
+        { 
+          name: 'Ionic 2',
+          itens: [
+            { title: 'Installing Ionic 2', url: 'http://ionicframework.com/docs/v2/getting-started/installation/' },
+            { title: 'Sample Application with Ionic 2', url: 'http://coenraets.org/blog/2015/10/sample-application-with-ionic-2/' },
+            { title: 'Sample Ionic 2 Application with a Salesforce Back-End', url: 'http://coenraets.org/blog/2015/10/ionic2-salesforce-oauth-rest/' },
+          ]
+        },
     ];
 
 }]);
