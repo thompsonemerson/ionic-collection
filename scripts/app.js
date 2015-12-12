@@ -37,6 +37,9 @@ angular.module('IonicCollectionApp', [])
             { title: 'Ionic Framework | Using Touch Gestures', url: 'http://www.gajotres.net/ionic-framework-series-13-touch-gestures/' },
             { title: 'Ionic Framework | Working With Forms And Validation', url: 'http://www.gajotres.net/ionic-framework-tutorial-10-form-handling-and-validation/' },
             { title: 'Understanding Ionic View LifeCycle', url: 'http://www.gajotres.net/understanding-ionic-view-lifecycle/' },
+            { title: 'Hello Master Detail: Your Fourth Ionic Framework App', url: 'http://mcgivery.com/hello-master-detail-your-fourth-ionic-framework-app/' },
+            { title: 'Discover the Power of Directives: Bringing an Ionic App to Life — Part 2', url: 'http://www.joshmorony.com/discover-the-power-of-directives-bringing-an-ionic-app-to-life%E2%80%8A-%E2%80%8Apart-2/' },
+            { title: 'Install Android, Cordova, and Ionic Framework in Ubuntu', url: 'https://blog.nraboy.com/2014/09/install-android-cordova-ionic-framework-ubuntu/' }, 
           ]
         },
         { 
@@ -134,6 +137,9 @@ angular.module('IonicCollectionApp', [])
             { title: 'Inspect Your Ionic App With ng-inspector', url: 'http://gonehybrid.com/inspect-your-ionic-app-with-ng-inspector/' },
             { title: 'Mobile Hybrid Apps with VS Code and Ionic', url: 'http://blogs.msdn.com/b/vscode/archive/2015/06/05/mobile-hybrid-apps-with-vs-code-and-ionic.aspx' },
             { title: 'How To Debug The White Screen Of Death In Your Ionic App', url: 'http://gonehybrid.com/how-to-debug-the-white-screen-of-death-in-your-ionic-app/' },
+            { title: 'Debugging Your Apache Cordova iOS App With Safari', url: 'https://blog.nraboy.com/2015/10/debugging-your-apache-cordova-ios-app-with-safari/' },
+            { title: 'StrongLoop, Ionic, and IBM Bluemix', url: 'http://www.raymondcamden.com/2015/10/29/strongloop-ionic-and-ibm-bluemix' },
+            { title: 'Adding localization to your Ionic application with IBM Bluemix', url: 'http://www.raymondcamden.com/2015/10/14/adding-localization-to-your-ionic-application-with-ibm-bluemix' },
           ]
         },
         { 
@@ -143,6 +149,9 @@ angular.module('IonicCollectionApp', [])
             { title: 'Push It Real Good with Ionic', url: 'https://www.airpair.com/javascript/posts/push-it-real-good-with-ionic' },
             { title: 'Easy Ionic Push Notifications With Ionic.io In 15 Minutes', url: 'http://devdactic.com/ionic-push-notifications/' },
             { title: 'An Introduction to Ionic Push', url: 'http://www.joshmorony.com/an-introduction-to-ionic-push/' },
+            { title: 'Testing Ionic Push Webhooks with IBM Bluemix', url: 'http://www.raymondcamden.com/2015/10/07/testing-ionic-push-webhooks-with-ibm-bluemix' },
+            { title: 'Ionic View in 4 steps', url: 'http://www.ionicbundle.com/ionic-view-in-4-steps/' },
+            { title: 'Sending Out Android Push Notification with Ionic.io to Your Users', url: 'http://devdactic.com/android-push-notifications/' },
           ]
         },
         { 
@@ -219,6 +228,7 @@ angular.module('IonicCollectionApp', [])
             { title: '7 Steps to Building a Hybrid Apple Watch App', url: 'http://developer.telerik.com/featured/7-steps-to-building-a-hybrid-apple-watch-app/' },
             { title: 'Facebook Native login with Ionic Framework', url: 'https://ionicthemes.com/learn/about/native-facebook-login-with-ionic-framework' },
             { title: 'Google+ login with Ionic Framework', url: 'https://ionicthemes.com/learn/about/google-plus-login-with-ionic-framework' },
+            { title: 'How To Set Up Quick Actions With 3D Touch For Your Ionic App', url: 'http://gonehybrid.com/how-to-set-up-quick-actions-with-3d-touch-for-your-ionic-app/' },
           ]
         },
         { 
@@ -254,6 +264,11 @@ angular.module('IonicCollectionApp', [])
             { title: 'Cordova + Ionic in Visual Studio - 101 Tutorial [Part I]', url: 'http://binarylies.ghost.io/cordova-ionic-in-visual-studio/' },
             { title: '8 Reasons Why I’m Glad I Switched to the Ionic Framework', url: 'http://www.joshmorony.com/8-reasons-why-im-glad-i-switched-to-the-ionic-framework/' },
             { title: 'Hello Modules: Your Third Ionic Framework App', url: 'http://mcgivery.com/hello-modules-your-third-ionic-framework-app/' },
+            { title: 'Use Font Awesome Glyph Icons With Ionic Framework', url: 'https://blog.nraboy.com/2014/10/use-font-awesome-glyph-icons-ionicframework/' },
+            { title: 'Build a WhatsApp clone with Meteor and Ionic - Meteor Platform version', url: 'http://info.meteor.com/blog/whatsapp-with-meteor-angular-and-ionic' },
+            { title: 'Modifying CSS Library Defaults in Ionic', url: 'http://www.ionicbundle.com/modifying-css-library-defaults-in-ionic/' },
+            { title: '4 Ways to Make Your Ionic App Feel Native', url: 'http://scottbolinger.com/4-ways-to-make-your-ionic-app-feel-native/' },
+            { title: 'Meteor, Ionic and Cordova basic tutorial', url: 'https://www.codetutorial.io/meteor-ionic-and-cordova-basic-tutorial/' }
           ]
         },
         { 
@@ -262,6 +277,9 @@ angular.module('IonicCollectionApp', [])
             { title: 'Installing Ionic 2', url: 'http://ionicframework.com/docs/v2/getting-started/installation/' },
             { title: 'Sample Application with Ionic 2', url: 'http://coenraets.org/blog/2015/10/sample-application-with-ionic-2/' },
             { title: 'Sample Ionic 2 Application with a Salesforce Back-End', url: 'http://coenraets.org/blog/2015/10/ionic2-salesforce-oauth-rest/' },
+            { title: 'Ionic 2 First Look Series: Your First Ionic 2 App Explained', url: 'http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/' },
+            { title: 'Build a Todo App from Scratch with Ionic 2 [VIDEO TUTORIAL]', url: 'http://www.joshmorony.com/build-a-todo-app-from-scratch-with-ionic-2-video-tutorial/' },
+            { title: 'Intro to ECMAScript 6 and Angular 2 for Ionic Developers', url: 'http://www.joshmorony.com/intro-to-ecmascript-6-and-angular-2-for-ionic-developers/' },
           ]
         },
     ];
