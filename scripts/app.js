@@ -268,7 +268,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Build a WhatsApp clone with Meteor and Ionic - Meteor Platform version', url: 'http://info.meteor.com/blog/whatsapp-with-meteor-angular-and-ionic' },
             { title: 'Modifying CSS Library Defaults in Ionic', url: 'http://www.ionicbundle.com/modifying-css-library-defaults-in-ionic/' },
             { title: '4 Ways to Make Your Ionic App Feel Native', url: 'http://scottbolinger.com/4-ways-to-make-your-ionic-app-feel-native/' },
-            { title: 'Meteor, Ionic and Cordova basic tutorial', url: 'https://www.codetutorial.io/meteor-ionic-and-cordova-basic-tutorial/' }
+            { title: 'Meteor, Ionic and Cordova basic tutorial', url: 'https://www.codetutorial.io/meteor-ionic-and-cordova-basic-tutorial/' },
             { title: 'Continuous Integration with Ionic Framework using Visual Studio Online', url: 'https://blogs.msdn.microsoft.com/mvpawardprogram/2015/10/27/continuous-integration-with-ionic-framework-using-visual-studio-online-from-check-in-to-device/' },
           ]
         },
