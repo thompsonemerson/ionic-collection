@@ -314,6 +314,12 @@ angular.module('IonicCollectionApp', [])
             { title: 'Ionic 2 | How To Create And Validate Forms', url: 'http://www.gajotres.net/ionic-2-how-o-create-and-validate-forms/' },
           ]
         },
+        {
+          name: 'Native UI',
+          itens: [
+            { title: 'Project Ace - Cordova plugin for native ui', url:'http://www.ace.run/' }
+          ]
+        }    
     ];
 
 }]);
