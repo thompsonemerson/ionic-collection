@@ -1,6 +1,6 @@
 /*
 * Ionic Collection v0.0.0
-* Copyright 2015, Emerson Thompson
+* Copyright 2015, Emerson Thompson <thompson.emerson@gmail.com>
 * Free to use under the MIT license.
 * 04/08/2015
 */
@@ -11,7 +11,7 @@ angular.module('IonicCollectionApp', [])
 .controller('AppCtrl', ['$scope', function ($scope) {
 
     $scope.collection = [
-        { 
+        {
           name: 'Ionic Basics',
           itens: [
             { title: 'Hello World: Your First Ionic Framework App', url: 'http://mcgivery.com/hello-world-first-ionic-framework-app' },
@@ -33,16 +33,17 @@ angular.module('IonicCollectionApp', [])
             { title: 'How To Organize The Files In Your Ionic Project', url: 'http://gonehybrid.com/how-to-organize-the-files-in-your-ionic-project/' },
             { title: 'How to Create Complex Layouts in Ionic', url: 'http://www.joshmorony.com/how-to-create-complex-layouts-in-ionic/' },
             { title: 'Debugging Ionic Apps using Chrome Developer Tools', url: 'http://mcgivery.com/debugging-ionic-apps-chrome-developer-tools' },
+            { title: 'Understanding Filters in Ionic', url: 'http://mcgivery.com/filters-ionic/' },
             { title: 'The Definitive Ionic Starter Guide', url: 'https://www.airpair.com/ionic-framework/posts/the-definitive-ionic-starter-guide' },
             { title: 'Ionic Framework | Using Touch Gestures', url: 'http://www.gajotres.net/ionic-framework-series-13-touch-gestures/' },
             { title: 'Ionic Framework | Working With Forms And Validation', url: 'http://www.gajotres.net/ionic-framework-tutorial-10-form-handling-and-validation/' },
             { title: 'Understanding Ionic View LifeCycle', url: 'http://www.gajotres.net/understanding-ionic-view-lifecycle/' },
             { title: 'Hello Master Detail: Your Fourth Ionic Framework App', url: 'http://mcgivery.com/hello-master-detail-your-fourth-ionic-framework-app/' },
             { title: 'Discover the Power of Directives: Bringing an Ionic App to Life — Part 2', url: 'http://www.joshmorony.com/discover-the-power-of-directives-bringing-an-ionic-app-to-life%E2%80%8A-%E2%80%8Apart-2/' },
-            { title: 'Install Android, Cordova, and Ionic Framework in Ubuntu', url: 'https://blog.nraboy.com/2014/09/install-android-cordova-ionic-framework-ubuntu/' }, 
+            { title: 'Install Android, Cordova, and Ionic Framework in Ubuntu', url: 'https://blog.nraboy.com/2014/09/install-android-cordova-ionic-framework-ubuntu/' },
           ]
         },
-        { 
+        {
           name: 'Ionic Components',
           itens: [
             { title: 'Understanding Ionic’s Side Menu', url: 'http://mcgivery.com/understanding-ionics-side-menu/' },
@@ -55,7 +56,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Ionic Framework | Using Grid System', url: 'http://www.gajotres.net/ionic-framework-series-14-grid-system/' },
           ]
         },
-        { 
+        {
           name: 'Ionic App Patterns',
           itens: [
             { title: 'Ionic: Master Detail Pattern', url: 'http://mcgivery.com/ionic-master-detail-pattern/' },
@@ -63,12 +64,14 @@ angular.module('IonicCollectionApp', [])
             { title: 'Internationalization and Localization with Ionic Framework and Angular Translate', url: 'https://blog.nraboy.com/2014/08/internationalization-localization-ionicframework-angular-translate/' },
             { title: 'Add Pull to Refresh with Toast Message in Your Ionic App', url: 'http://devdactic.com/pull-to-refresh-ionic/' },
             { title: 'Creating a Feed in Ionic', url: 'http://mcgivery.com/creating-feed-ionic/' },
+            { title: 'Creating an Attractive Login Screen in Ionic with Flexbox', url: 'http://www.joshmorony.com/creating-an-attractive-login-screen-in-ionic-with-flexbox/' },
             { title: 'Make A Gallery-Like Image Grid Using Ionic Framework', url: 'https://blog.nraboy.com/2015/03/make-a-gallery-like-image-grid-using-ionic-framework/' },
             { title: 'Making Tinder-Style Swipe Cards With Ionic Framework', url: 'https://blog.nraboy.com/2015/01/making-tinder-style-swipe-cards-ionic-framework/' },
             { title: 'Swipeable Cards with the Ionic Framework', url: 'http://devdactic.com/swipeable-cards-ionic/' },
+            { title: 'How to Create a Nested Tab View in Ionic', url: 'http://www.joshmorony.com/how-to-create-a-nested-tab-view-in-ionic/' },
           ]
         },
-        { 
+        {
           name: 'Authentication',
           itens: [
             { title: 'Cookie-based Authentication in AngularJS', url: 'http://blog.ionic.io/angularjs-authentication/' },
@@ -78,9 +81,10 @@ angular.module('IonicCollectionApp', [])
             { title: 'How To Handle User Authentication With AngularJS Inside Your Ionic App', url: 'http://devdactic.com/user-auth-angularjs-ionic/' },
             { title: 'Adding Social Login with Firebase', url: 'http://blog.ionic.io/adding-social-login-with-firebase/' },
             { title: 'User Authentication with Ionic and Parse, Part 1: Email Login', url: 'http://www.joshmorony.com/user-authentication-with-ionic-and-parse-part-1-email-login/' },
+            { title: 'User Authentication with Ionic and Parse, Part 2: Facebook Login', url: 'http://www.joshmorony.com/user-authentication-with-ionic-and-parse-part-2-facebook-login/' },
           ]
         },
-        { 
+        {
           name: 'Testing',
           itens: [
             { title: 'Writing Your First Unit Test with the Ionic Framework', url: 'https://bradb.net/unit-testing-with-the-ionic-framework/' },
@@ -90,7 +94,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Ionic Framework & Protractor Tests', url: 'https://calendee.com/2015/05/19/ionic-framework-protractor-tests/' },
           ]
         },
-        { 
+        {
           name: 'Backend as a Service',
           itens: [
             { title: 'Dicas para trabalhar com o Ionic Framework – PouchDB', url: 'http://frontinbrazil.com.br/pouchdb/' },
@@ -109,6 +113,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Using MobileFirst SQL Adapters with an Ionic Application', url: 'http://www.raymondcamden.com/2015/04/02/using-mobilefirst-sql-adapters-with-an-ionic-application' },
             { title: 'Using Remote Logging with Ionic and IBM MobileFirst', url: 'http://www.raymondcamden.com/2015/03/31/using-remote-logging-with-ionic-and-ibm-mobilefirst' },
             { title: 'Working with IBM MobileFirst and Ionic – Bootstrapping', url: 'http://www.raymondcamden.com/2015/03/24/working-with-ibm-mobilefirst-and-ionic-bootstraping' },
+            { title: 'Examples Using Ionic Framework and Firebase', url: 'http://www.toptal.com/front-end/building-multi-platform-real-time-mobile-applications-using-ionic-framework-and-firebase' },
             { title: 'How To Use PouchDB + SQLite For Local Storage In Your Ionic App', url: 'http://gonehybrid.com/how-to-use-pouchdb-sqlite-for-local-storage-in-your-ionic-app/' },
             { title: 'HTML5 Offline Mobile App Using Ionic and PouchDB', url: 'http://www.webspeaks.in/2015/03/html5-offline-mobile-app-using-ionic-pouchdb.html' },
             { title: 'Offline Data Synchronization in Ionic', url: 'http://frontmag.no/artikler/utvikling/offline-data-synchronization-ionic' },
@@ -116,9 +121,10 @@ angular.module('IonicCollectionApp', [])
             { title: 'Build a Real Time Hybrid App with Ionic & Firebase', url: 'https://www.airpair.com/angularjs/posts/build-a-real-time-hybrid-app-with-ionic-firebase' },
             { title: 'Using Couchbase in Your Ionic Framework Application Part 1', url: 'http://blog.couchbase.com/using-couchbase-in-your-ionic-framework-application-part-1' },
             { title: 'Implementing the Master Detail Pattern in Ionic with Firebase', url: 'http://www.joshmorony.com/implementing-the-master-detail-pattern-in-ionic-with-firebase/' },
+            { title: 'Create a Real Time Chat App with Ionic and Firebase', url: 'http://www.joshmorony.com/create-a-real-time-chat-app-with-ionic-and-firebase/' },
           ]
         },
-        { 
+        {
           name: 'Ionic Tooling',
           itens: [
             { title: 'Using the Ionic Framework with Grunt and PhoneGap Build', url: 'http://mcgivery.com/using-the-ionic-framework-with-grunt-and-phone-gap-build/' },
@@ -142,7 +148,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Adding localization to your Ionic application with IBM Bluemix', url: 'http://www.raymondcamden.com/2015/10/14/adding-localization-to-your-ionic-application-with-ibm-bluemix' },
           ]
         },
-        { 
+        {
           name: 'Ionic Backend Services (ionic.io)',
           itens: [
             { title: 'An early look at Ionic Push', url: 'http://www.raymondcamden.com/2015/03/31/an-early-look-at-ionic-push' },
@@ -154,7 +160,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Sending Out Android Push Notification with Ionic.io to Your Users', url: 'http://devdactic.com/android-push-notifications/' },
           ]
         },
-        { 
+        {
           name: 'Ionic Ions',
           itens: [
             { title: 'Ionic showWhen directive', url: 'http://mcgivery.com/ionic-showwhen-directive/' },
@@ -166,7 +172,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Must-have plugins for Ionic Framework', url: 'http://www.gajotres.net/must-have-plugins-for-ionic-framework/' },
           ]
         },
-        { 
+        {
           name: 'ngCordova/Cordova Plugins',
           itens: [
             { title: 'Installing ngCordova in an Ionic Application', url: 'http://www.joshmorony.com/installing-ngcordova-in-an-ionic-application/' },
@@ -224,6 +230,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Useful Cordova Plugins For Your Ionic Application & Examples', url: 'http://www.gajotres.net/useful-cordova-plugins-for-your-ionic-application-examples/' },
             { title: 'Using A Pin Dialog In Your Ionic Framework Mobile App', url: 'https://blog.nraboy.com/2015/07/using-a-pin-dialog-in-your-ionic-framework-mobile-app/' },
             { title: 'Monitor Device Battery Status Using Ionic Framework', url: 'https://blog.nraboy.com/2015/07/monitor-device-battery-status-using-ionic-framework/' },
+            { title: 'Ionic- Using Local Notifications', url: 'http://digitaldrummerj.me/ionic-local-notification/' },
             { title: 'How To Add Sound Effects To Your Ionic App With Native Audio', url: 'http://gonehybrid.com/how-to-add-sound-effects-to-your-ionic-app-with-native-audio/' },
             { title: '7 Steps to Building a Hybrid Apple Watch App', url: 'http://developer.telerik.com/featured/7-steps-to-building-a-hybrid-apple-watch-app/' },
             { title: 'Facebook Native login with Ionic Framework', url: 'https://ionicthemes.com/learn/about/native-facebook-login-with-ionic-framework' },
@@ -231,7 +238,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'How To Set Up Quick Actions With 3D Touch For Your Ionic App', url: 'http://gonehybrid.com/how-to-set-up-quick-actions-with-3d-touch-for-your-ionic-app/' },
           ]
         },
-        { 
+        {
           name: 'Miscellaneous',
           itens: [
             { title: 'Adding Background Images To Ionic Framework Apps', url: 'https://blog.nraboy.com/2015/04/adding-background-images-to-ionic-framework-apps/' },
@@ -245,24 +252,28 @@ angular.module('IonicCollectionApp', [])
             { title: 'Ionic SocketIO Chat', url: 'http://melvin0008.github.io/blog/ionic-socketio-chat/' },
             { title: 'Switching from native iOS to Ionic: Why Hybrid doesn’t suck (anymore)', url: 'https://www.airpair.com/javascript/posts/switching-from-ios-to-ionic' },
             { title: 'Using the Web Audio API for precision audio in Ionic', url: 'https://www.airpair.com/ionic-framework/posts/using-web-audio-api-for-precision-audio-in-ionic' },
+            { title: 'Create Your First Windows 10 Universal Apps With Ionic Framework (Walkthrough)', url: 'http://blog.aveni.us/index.php/2015/12/19/creating-windows-10-universal-apps-ionic-framework' },
             { title: 'Build an iOS app with Push Notifications using Ionic Framework', url: 'https://www.airpair.com/ionic-framework/posts/push-notifications-using-ionic-framework' },
             { title: 'How to Make High Performance PhoneGap Apps', url: 'http://www.joshmorony.com/how-to-make-high-performance-phonegap-apps/' },
             { title: 'Using Device Grade in Ionic Framework Apps', url: 'https://calendee.com/2015/05/15/using-device-grade-in-ionic-framework/' },
             { title: 'Tracking and notifying geolocation status with Ionic', url: 'http://www.raymondcamden.com/2015/05/18/tracking-and-notifying-geolocation-status-with-ionic' },
             { title: 'How To Add A Search Bar In The Header On Ionic', url: 'http://gonehybrid.com/how-to-add-a-search-bar-in-the-header-on-ionic/' },
             { title: 'How To Create An Advanced Ionic Gallery with Image Zooming', url: 'http://devdactic.com/ionic-image-zooming/' },
+            { title: 'How To Create And Display A PDF File In Your Ionic App', url: 'http://gonehybrid.com/how-to-create-and-display-a-pdf-file-in-your-ionic-app/' },
             { title: 'How To Easily Use The Twitter REST Api With AngularJS', url: 'http://devdactic.com/twitter-rest-api-angularjs' },
             { title: 'Using the Web Audio API for precision audio in Ionic', url: 'https://www.airpair.com/ionic-framework/posts/using-web-audio-api-for-precision-audio-in-ionic' },
             { title: 'The Best Looking Ionic Framework Themes', url: 'http://www.gajotres.net/best-looking-ionic-framework-themes/' },
             { title: 'Using Google Maps With Ionic Framework', url: 'http://www.gajotres.net/using-google-maps-with-ionic-framework/' },
             { title: 'A Comprehensive List Of Ionic Starter Apps', url: 'http://www.gajotres.net/a-comprehensive-list-of-ionic-starter-apps' },
             { title: 'Integrating Google Maps with an Ionic Application', url: 'http://www.joshmorony.com/integrating-google-maps-with-an-ionic-application/' },
+            { title: 'Bring Your Ionic App to Life: Getting Started with D3.js', url: 'http://gonehybrid.com/bring-your-ionic-app-to-life-getting-started-with-d3-js/' },
             { title: 'Using Views Events To Create JavaScript Pure Ionic Splash Screen', url: 'http://www.gajotres.net/using-views-events-to-create-javascript-pure-ionic-splash-screen/' },
             { title: 'Ionic Framework | Get Page Height & Width', url: 'http://www.gajotres.net/ionic-framework-get-page-height-width/' },
             { title: 'Ultimate AngularJS and Ionic performance cheat sheet', url: 'http://julienrenaux.fr/2015/08/24/ultimate-angularjs-and-ionic-performance-cheat-sheet/' },
             { title: 'Animating Elements in your Ionic App', url: 'http://blog.ionic.io/animating-elements-in-your-ionic-app/' },
             { title: 'Cordova + Ionic in Visual Studio - 101 Tutorial [Part I]', url: 'http://binarylies.ghost.io/cordova-ionic-in-visual-studio/' },
             { title: '8 Reasons Why I’m Glad I Switched to the Ionic Framework', url: 'http://www.joshmorony.com/8-reasons-why-im-glad-i-switched-to-the-ionic-framework/' },
+            { title: 'How to create a calculator application with Ionic framework by using Ionic Creator for UI', url: 'http://tutorials.pluralsight.com/review/how-to-create-a-calculator-application-with-ionic-framework-by-using-ionic-creator-for-ui/article.md' },
             { title: 'Hello Modules: Your Third Ionic Framework App', url: 'http://mcgivery.com/hello-modules-your-third-ionic-framework-app/' },
             { title: 'Use Font Awesome Glyph Icons With Ionic Framework', url: 'https://blog.nraboy.com/2014/10/use-font-awesome-glyph-icons-ionicframework/' },
             { title: 'Build a WhatsApp clone with Meteor and Ionic - Meteor Platform version', url: 'http://info.meteor.com/blog/whatsapp-with-meteor-angular-and-ionic' },
@@ -270,17 +281,37 @@ angular.module('IonicCollectionApp', [])
             { title: '4 Ways to Make Your Ionic App Feel Native', url: 'http://scottbolinger.com/4-ways-to-make-your-ionic-app-feel-native/' },
             { title: 'Meteor, Ionic and Cordova basic tutorial', url: 'https://www.codetutorial.io/meteor-ionic-and-cordova-basic-tutorial/' },
             { title: 'Continuous Integration with Ionic Framework using Visual Studio Online', url: 'https://blogs.msdn.microsoft.com/mvpawardprogram/2015/10/27/continuous-integration-with-ionic-framework-using-visual-studio-online-from-check-in-to-device/' },
+            { title: 'What’s the Difference Between Ionic and AngularJS?', url: 'http://www.joshmorony.com/whats-the-difference-between-ionic-and-angularjs/' },
           ]
         },
-        { 
+        {
           name: 'Ionic 2',
           itens: [
             { title: 'Installing Ionic 2', url: 'http://ionicframework.com/docs/v2/getting-started/installation/' },
             { title: 'Sample Application with Ionic 2', url: 'http://coenraets.org/blog/2015/10/sample-application-with-ionic-2/' },
             { title: 'Sample Ionic 2 Application with a Salesforce Back-End', url: 'http://coenraets.org/blog/2015/10/ionic2-salesforce-oauth-rest/' },
             { title: 'Ionic 2 First Look Series: Your First Ionic 2 App Explained', url: 'http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/' },
+            { title: 'Ionic 2 First Look Series: New Angular 2 Concepts & Syntax', url: 'http://www.joshmorony.com/ionic-2-first-look-series-new-angular-2-concepts-syntax/' },
             { title: 'Build a Todo App from Scratch with Ionic 2 [VIDEO TUTORIAL]', url: 'http://www.joshmorony.com/build-a-todo-app-from-scratch-with-ionic-2-video-tutorial/' },
             { title: 'Intro to ECMAScript 6 and Angular 2 for Ionic Developers', url: 'http://www.joshmorony.com/intro-to-ecmascript-6-and-angular-2-for-ionic-developers/' },
+            { title: 'Ionic 2: How to Create a Sliding Delete Button for Lists', url: 'http://www.joshmorony.com/ionic-2-how-to-create-a-sliding-delete-button-for-lists/' },
+            { title: 'Ionic 2: How to Use Google Maps & Geolocation [VIDEO TUTORIAL]', url: 'http://www.joshmorony.com/ionic-2-how-to-use-google-maps-geolocation-video-tutorial/' },
+            { title: 'Build a Todo App from Scratch with Ionic 2 [VIDEO TUTORIAL]', url: 'http://www.joshmorony.com/build-a-todo-app-from-scratch-with-ionic-2-video-tutorial/' },
+            { title: 'Use SQLite In Ionic 2 Instead Of Local Storage', url: 'https://blog.nraboy.com/2015/12/use-sqlite-in-ionic-2-instead-of-local-storage/' },
+            { title: 'How to Convert an Ionic 1 Application to Ionic 2', url: 'http://www.joshmorony.com/how-to-convert-an-ionic-1-application-to-ionic-2/' },
+            { title: 'How to Create a Directive in Ionic 2 – Parallax Header', url: 'http://www.joshmorony.com/how-to-create-a-directive-in-ionic-2-parallax-header/' },
+            { title: 'How to Use Pipes to Manipulate Data in Ionic 2', url: 'http://www.joshmorony.com/how-to-use-pipes-to-manipulate-data-in-ionic-2/' },
+            { title: 'Navigate Between Pages In An Ionic 2 Android And iOS App', url: 'https://blog.nraboy.com/2015/12/navigate-between-pages-in-an-ionic-2-android-and-ios-app/' },
+            { title: 'Understanding Ionic 2: Class', url: 'http://mcgivery.com/understanding-ionic-2-class/' },
+            { title: 'Understanding Ionic 2: @Page', url: 'http://mcgivery.com/understanding-ionic-2-page/' },
+            { title: 'Understanding Ionic 2: @App', url: 'http://mcgivery.com/understanding-ionic-2-app/' },
+            { title: 'Understanding Ionic 2: Imports', url: 'http://mcgivery.com/understanding-ionic-2-imports/' },
+            { title: 'Ionic 2 | Tutorial | Let’s Create Our First Application', url: 'http://www.gajotres.net/ionic-2-tutorial-lets-create-our-first-application/' },
+            { title: 'Ionic 2 | A Page Anatomy Part 1 – The Root Component', url: 'http://www.gajotres.net/ionic-2-a-page-anatomy-part-1-the-root-component/' },
+            { title: 'Ionic 2 | A Page Anatomy Part 2 – Page Component', url: 'http://www.gajotres.net/ionic-2-a-page-anatomy-part-2-page-components/' },
+            { title: 'Ionic 2 | Making REST HTTP Requests Like a Pro', url: 'http://www.gajotres.net/ionic-2-making-rest-http-requests-like-a-pro/' },
+            { title: 'Ionic 2 | Sharing Data Between Pages/Components', url: 'http://www.gajotres.net/ionic-2-sharing-data-between-pagescomponents/' },
+            { title: 'Ionic 2 | How To Create And Validate Forms', url: 'http://www.gajotres.net/ionic-2-how-o-create-and-validate-forms/' },
           ]
         },
     ];
