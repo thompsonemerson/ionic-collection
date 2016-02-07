@@ -91,16 +91,51 @@ main {
       margin-bottom: 10px;
     }
 
+      main .list .item {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        color: #000000;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #EEEEEE;
+        background-color: #EEEEEE;
+      }
+      main .list .item:hover,
+      main .list .item:focus {
+        background-color: #FFFFFF;
+      }
+
+
+  main .list.ionic-2 {
+    background-color: #4e8ef7;
+    padding: 15px;
+    border-radius: 10px
+  }
+    main .list.ionic-2 .title-category {
+      text-align: center;
+      color: #FFFFFF;
+    }
+    main .list.ionic-2 .item {
+      color: #FFFFFF;
+      border-color: rgba(41, 47, 51, 0.2);
+      background-color: rgba(41, 47, 51, 0.2);
+    }
+    main .list.ionic-2 .item:hover {
+      border-color: #FFFFFF;
+      background-color: rgba(41, 47, 51, 0.3);
+    }
+
+
+@media( min-width: 800px ){
+  main .list .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
     main .list .item {
-      display: block;
-      padding: 15px;
-      color: #000000;
-      margin-bottom: 10px;
-      border-radius: 5px;
-      border: 1px solid #EEEEEE;
-      background-color: #EEEEEE;
+      display: flex;
+      width: 49%;
     }
-    main .list .item:hover,
-    main .list .item:focus {
-      background-color: #FFFFFF;
-    }
+}

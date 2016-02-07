@@ -13,6 +13,7 @@ angular.module('IonicCollectionApp', [])
     $scope.collection = [
         {
           name: 'Ionic Basics',
+          slug: 'ionic-basics',
           itens: [
             { title: 'Hello World: Your First Ionic Framework App', url: 'http://mcgivery.com/hello-world-first-ionic-framework-app' },
             { title: 'Structure of an Ionic App', url: 'http://mcgivery.com/structure-of-an-ionic-app/' },
@@ -45,6 +46,7 @@ angular.module('IonicCollectionApp', [])
         },
         {
           name: 'Ionic Components',
+          slug: 'ionic-components',
           itens: [
             { title: 'Understanding Ionic’s Side Menu', url: 'http://mcgivery.com/understanding-ionics-side-menu/' },
             { title: 'Understanding Tabs In Ionic Framework', url: 'https://blog.nraboy.com/2014/12/understanding-tabs-ionic-framework/' },
@@ -58,6 +60,7 @@ angular.module('IonicCollectionApp', [])
         },
         {
           name: 'Ionic App Patterns',
+          slug: 'ionic-app-patterns',
           itens: [
             { title: 'Ionic: Master Detail Pattern', url: 'http://mcgivery.com/ionic-master-detail-pattern/' },
             { title: 'Internationalization of an Ionic App: Multilanguage Support', url: 'http://mcgivery.com/internationalization-of-an-ionic-app-multilanguage-support/' },
@@ -73,6 +76,7 @@ angular.module('IonicCollectionApp', [])
         },
         {
           name: 'Authentication',
+          slug: 'authentication',
           itens: [
             { title: 'Cookie-based Authentication in AngularJS', url: 'http://blog.ionic.io/angularjs-authentication/' },
             { title: 'Handle User Sign-In With Ionic Framework', url: 'https://blog.nraboy.com/2014/07/handle-user-sign-ionicframework/' },
@@ -86,6 +90,7 @@ angular.module('IonicCollectionApp', [])
         },
         {
           name: 'Testing',
+          slug: 'testing',
           itens: [
             { title: 'Writing Your First Unit Test with the Ionic Framework', url: 'https://bradb.net/unit-testing-with-the-ionic-framework/' },
             { title: 'Unit Testing Your Ionic Framework App', url: 'http://mcgivery.com/unit-testing-ionic-app/' },
@@ -96,6 +101,7 @@ angular.module('IonicCollectionApp', [])
         },
         {
           name: 'Backend as a Service',
+          slug: 'backend-as-a-service',
           itens: [
             { title: 'Dicas para trabalhar com o Ionic Framework – PouchDB', url: 'http://frontinbrazil.com.br/pouchdb/' },
             { title: 'Use Parse Core In Your Ionic Framework Mobile Apps', url: 'https://blog.nraboy.com/2015/04/use-parse-core-in-ionic-framework-mobile-apps/' },
@@ -126,6 +132,7 @@ angular.module('IonicCollectionApp', [])
         },
         {
           name: 'Ionic Tooling',
+          slug: 'ionic-tooling',
           itens: [
             { title: 'Using the Ionic Framework with Grunt and PhoneGap Build', url: 'http://mcgivery.com/using-the-ionic-framework-with-grunt-and-phone-gap-build/' },
             { title: 'Minifying Your App’s Source Code', url: 'http://blog.ionic.io/minifying-your-source-code/' },
@@ -150,6 +157,7 @@ angular.module('IonicCollectionApp', [])
         },
         {
           name: 'Ionic Backend Services (ionic.io)',
+          slug: 'ionic-backend-services',
           itens: [
             { title: 'An early look at Ionic Push', url: 'http://www.raymondcamden.com/2015/03/31/an-early-look-at-ionic-push' },
             { title: 'Push It Real Good with Ionic', url: 'https://www.airpair.com/javascript/posts/push-it-real-good-with-ionic' },
@@ -162,6 +170,7 @@ angular.module('IonicCollectionApp', [])
         },
         {
           name: 'Ionic Ions',
+          slug: 'ionic-ions',
           itens: [
             { title: 'Ionic showWhen directive', url: 'http://mcgivery.com/ionic-showwhen-directive/' },
             { title: 'showWhenState: Conditional Elements In Ionic by State', url: 'http://devdactic.com/ionic-showwhenstate/' },
@@ -174,6 +183,7 @@ angular.module('IonicCollectionApp', [])
         },
         {
           name: 'ngCordova/Cordova Plugins',
+          slug: 'ngcordova-cordova-plugins',
           itens: [
             { title: 'Installing ngCordova in an Ionic Application', url: 'http://www.joshmorony.com/installing-ngcordova-in-an-ionic-application/' },
             { title: 'Using Custom URL Schemes In Your Ionic Framework App', url: 'http://mcgivery.com/using-custom-url-schemes-ionic-framework-app/' },
@@ -240,6 +250,7 @@ angular.module('IonicCollectionApp', [])
         },
         {
           name: 'Miscellaneous',
+          slug: 'miscellaneous',
           itens: [
             { title: 'Adding Background Images To Ionic Framework Apps', url: 'https://blog.nraboy.com/2015/04/adding-background-images-to-ionic-framework-apps/' },
             { title: 'Create A Complex Calculator App Using Ionic Framework', url: 'https://blog.nraboy.com/2015/04/create-a-complex-calculator-app-using-ionic-framework/' },
@@ -285,7 +296,15 @@ angular.module('IonicCollectionApp', [])
           ]
         },
         {
+          name: 'Native UI',
+          slug: 'native-ui',
+          itens: [
+            { title: 'Project Ace - Cordova plugin for native ui', url:'http://www.ace.run/' }
+          ]
+        },
+        {
           name: 'Ionic 2',
+          slug: 'ionic-2',
           itens: [
             { title: 'Installing Ionic 2', url: 'http://ionicframework.com/docs/v2/getting-started/installation/' },
             { title: 'Sample Application with Ionic 2', url: 'http://coenraets.org/blog/2015/10/sample-application-with-ionic-2/' },
@@ -313,13 +332,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Ionic 2 | Sharing Data Between Pages/Components', url: 'http://www.gajotres.net/ionic-2-sharing-data-between-pagescomponents/' },
             { title: 'Ionic 2 | How To Create And Validate Forms', url: 'http://www.gajotres.net/ionic-2-how-o-create-and-validate-forms/' },
           ]
-        },
-        {
-          name: 'Native UI',
-          itens: [
-            { title: 'Project Ace - Cordova plugin for native ui', url:'http://www.ace.run/' }
-          ]
-        }    
+        }
     ];
 
 }]);

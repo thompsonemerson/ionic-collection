@@ -59,11 +59,13 @@
 	</header>
 
 	<main class="container">
-		<div class="list" ng-repeat="category in collection | filter: search">
+		<div class="list" ng-repeat="category in collection | filter: search" ng-class="category.slug">
 			<h2 class="title-category">{{ category.name }}</h2>
-			<a ng-repeat="item in category.itens | filter: search" ng-href="{{ item.url }}" class="item" target="_blank">
-				{{ item.title }}
-			</a>
+			<div class="items">
+				<a ng-repeat="item in category.itens | filter: search" ng-href="{{ item.url }}" class="item" target="_blank">
+					{{ item.title }}
+				</a>
+			</div>
 		</div>
 	</main>
 
