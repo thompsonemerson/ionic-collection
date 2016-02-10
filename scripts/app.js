@@ -42,6 +42,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Hello Master Detail: Your Fourth Ionic Framework App', url: 'http://mcgivery.com/hello-master-detail-your-fourth-ionic-framework-app/' },
             { title: 'Discover the Power of Directives: Bringing an Ionic App to Life — Part 2', url: 'http://www.joshmorony.com/discover-the-power-of-directives-bringing-an-ionic-app-to-life%E2%80%8A-%E2%80%8Apart-2/' },
             { title: 'Install Android, Cordova, and Ionic Framework in Ubuntu', url: 'https://blog.nraboy.com/2014/09/install-android-cordova-ionic-framework-ubuntu/' },
+            { title: 'Ionic - Automatic Setup on Windows and OSx with taco cli', url: 'http://wenndersantos.net/2015/12/taco-nao-perca-tempo-configurando-ambiente-use-taco-install-reqs/'}
           ]
         },
         {
