@@ -42,7 +42,13 @@ angular.module('IonicCollectionApp', [])
             { title: 'Hello Master Detail: Your Fourth Ionic Framework App', url: 'http://mcgivery.com/hello-master-detail-your-fourth-ionic-framework-app/' },
             { title: 'Discover the Power of Directives: Bringing an Ionic App to Life — Part 2', url: 'http://www.joshmorony.com/discover-the-power-of-directives-bringing-an-ionic-app-to-life%E2%80%8A-%E2%80%8Apart-2/' },
             { title: 'Install Android, Cordova, and Ionic Framework in Ubuntu', url: 'https://blog.nraboy.com/2014/09/install-android-cordova-ionic-framework-ubuntu/' },
-            { title: 'Ionic - Automatic Setup on Windows and OSx with taco cli', url: 'http://wenndersantos.net/2015/12/taco-nao-perca-tempo-configurando-ambiente-use-taco-install-reqs/'}
+            { 
+              title: 'Ionic - Automatic Setup on Windows and OSx with taco cli', 
+              description: '<p>Enviroment configuration is so boring, well why not automate this step? Taco cli offers that kind of service ;)</p>' +
+                           '<p>With a single command (taco install reqs PLATFORM) all the requirements will be installed simple as that.</p><br>' +
+                           '<p>Tutorial video in pt-br: <a href="http://wenndersantos.net/2015/12/taco-nao-perca-tempo-configurando-ambiente-use-taco-install-reqs/" target="_blank">taco install reqs</a>' +
+                           '<p>See more in the project site: <a href="http://taco.tools" target="_blank">http://taco.tools</a></p>'
+            }
           ]
         },
         {
@@ -247,7 +253,13 @@ angular.module('IonicCollectionApp', [])
             { title: 'Facebook Native login with Ionic Framework', url: 'https://ionicthemes.com/learn/about/native-facebook-login-with-ionic-framework' },
             { title: 'Google+ login with Ionic Framework', url: 'https://ionicthemes.com/learn/about/google-plus-login-with-ionic-framework' },
             { title: 'How To Set Up Quick Actions With 3D Touch For Your Ionic App', url: 'http://gonehybrid.com/how-to-set-up-quick-actions-with-3d-touch-for-your-ionic-app/' },
-            { title: 'Code Push | Push code updates to your apps, instantly', url: 'http://wenndersantos.net/2015/12/code-push-atualize-seu-app-sem-precisar-publicar-uma-nova-versao-na-store/'}
+            { 
+              title: 'Code Push | Push code updates to your apps, instantly', 
+              description: '<p>With code push plugin you can update your app instantly, without any deploy on the app store.</p>' +
+                           '<p>It\'s so easy to configure and it work for cordova based app\s and react native.</p>' +
+                           '<br>Tutorial in pt-br: <a href="http://wenndersantos.net/2015/12/code-push-atualize-seu-app-sem-precisar-publicar-uma-nova-versao-na-store/" target="_blank">Code Push</a></p>' +
+                           '<p>Project site: <a href="http://microsoft.github.io/code-push" target="_blank">http://microsoft.github.io/code-push/</a></p>'
+              }
           ]
         },
         {
@@ -301,7 +313,11 @@ angular.module('IonicCollectionApp', [])
           name: 'Native UI',
           slug: 'native-ui',
           itens: [
-            { title: 'Project Ace - Cordova plugin for native ui', url:'http://www.ace.run/' }
+            { 
+              title: 'Project Ace - Cordova plugin for native ui', 
+              description: '<p>Project ace is a plugin that allow the developer add the power of the native layout platform using native layout code or javascript</p>' +
+                           '<br><p>See more in the projec: <a href="http://microsoft.github.io/ace/" target="_blank">http://microsoft.github.io/ace/</a></p>'            
+            }
           ]
         },
         {
@@ -337,4 +353,20 @@ angular.module('IonicCollectionApp', [])
         }
     ];
 
-}]);
+    $scope.show = function(item) {
+      if (item.description) {
+        item.showDescription = item.showDescription === undefined ? true : !item.showDescription;
+        return;
+      }
+      
+      window.open(item.url, 'location=yes');      
+    };
+
+}])
+
+  .filter('to_trusted', ['$sce', function ($sce) {
+    return function (text) {
+      return $sce.trustAsHtml(text);
+    };
+  }]);
+;
