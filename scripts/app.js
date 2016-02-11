@@ -333,6 +333,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Ionic 2 | Making REST HTTP Requests Like a Pro', url: 'http://www.gajotres.net/ionic-2-making-rest-http-requests-like-a-pro/' },
             { title: 'Ionic 2 | Sharing Data Between Pages/Components', url: 'http://www.gajotres.net/ionic-2-sharing-data-between-pagescomponents/' },
             { title: 'Ionic 2 | How To Create And Validate Forms', url: 'http://www.gajotres.net/ionic-2-how-o-create-and-validate-forms/' },
+            { title: 'Why I Released an Ionic 2 & Angular 2 Application', url: 'http://www.joshmorony.com/why-i-released-an-ionic-2-angular-2-application/' },
           ]
         }
     ];
