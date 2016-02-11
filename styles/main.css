@@ -126,7 +126,18 @@ main {
       border-color: #FFFFFF;
       background-color: rgba(41, 47, 51, 0.3);
     }
-
+    
+    main .item {
+      cursor: pointer;
+    }
+    
+    main .item-description {
+      padding: 15px;
+      cursor: default;
+      margin-top: 10px;
+      border-radius: 5px;
+      background-color: #F3EDED;;
+    }
 
 @media( min-width: 800px ){
   main .list .items {
@@ -135,7 +146,7 @@ main {
     justify-content: space-between;
   }
     main .list .item {
-      display: flex;
+      /*display: flex; just necessary in the parent*/
       width: 49%;
     }
 }

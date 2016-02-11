@@ -62,9 +62,10 @@
 		<div class="list" ng-repeat="category in collection | filter: search" ng-class="category.slug">
 			<h2 class="title-category">{{ category.name }}</h2>
 			<div class="items">
-				<a ng-repeat="item in category.itens | filter: search" ng-href="{{ item.url }}" class="item" target="_blank">
-					{{ item.title }}
-				</a>
+				<div ng-repeat="item in category.itens | filter: search" class="item">
+          <div ng-click="show(item)">{{ item.title }}</div>
+          <div ng-if="item.showDescription" ng-bind-html="item.description | to_trusted" class="item-description"></div>
+        </div>
 			</div>
 		</div>
 	</main>
