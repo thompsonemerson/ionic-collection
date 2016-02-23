@@ -3,6 +3,8 @@
 > It is an interactive application with a real time search that brings together a variety of posts on [Ionic Framework](http://ionicframework.com/).
 
 <br>
+### [View Collection](http://thompsonemerson.github.io/ionic-collection)
+<br>
 
 ### What is Ionic?
 
