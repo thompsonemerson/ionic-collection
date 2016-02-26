@@ -247,7 +247,8 @@ angular.module('IonicCollectionApp', [])
             { title: 'Facebook Native login with Ionic Framework', url: 'https://ionicthemes.com/learn/about/native-facebook-login-with-ionic-framework' },
             { title: 'Google+ login with Ionic Framework', url: 'https://ionicthemes.com/learn/about/google-plus-login-with-ionic-framework' },
             { title: 'How To Set Up Quick Actions With 3D Touch For Your Ionic App', url: 'http://gonehybrid.com/how-to-set-up-quick-actions-with-3d-touch-for-your-ionic-app/' },
-            { title: 'Code Push | Push code updates to your apps, instantly', url: 'http://wenndersantos.net/2015/12/code-push-atualize-seu-app-sem-precisar-publicar-uma-nova-versao-na-store/'}
+            { title: 'Code Push | Push code updates to your apps, instantly', url: 'http://wenndersantos.net/2015/12/code-push-atualize-seu-app-sem-precisar-publicar-uma-nova-versao-na-store/'},
+            { title: 'Adding native page transitions', url: 'http://plugins.telerik.com/cordova/plugin/native-page-transitions'}
           ]
         },
         {
