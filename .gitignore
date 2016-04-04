@@ -2,3 +2,7 @@
 # http://git-scm.com/docs/gitignore
 
 node_modules/
+
+.DS_Store*
+Thumbs.db*
+~*
