@@ -167,6 +167,7 @@ angular.module('IonicCollectionApp', [])
             { title: 'Testing Ionic Push Webhooks with IBM Bluemix', url: 'http://www.raymondcamden.com/2015/10/07/testing-ionic-push-webhooks-with-ibm-bluemix' },
             { title: 'Ionic View in 4 steps', url: 'http://www.ionicbundle.com/ionic-view-in-4-steps/' },
             { title: 'Sending Out Android Push Notification with Ionic.io to Your Users', url: 'http://devdactic.com/android-push-notifications/' },
+            { title: 'Get Started with Azure Mobile Engagement', url: 'https://azure.microsoft.com/en-us/documentation/articles/mobile-engagement-cordova-get-started/' }
           ]
         },
         {
