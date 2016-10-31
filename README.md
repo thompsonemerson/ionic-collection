@@ -1,4 +1,5 @@
 # Ionic Collection
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://thompsonemerson.github.io/ionic-collection)
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](http://thompsonemerson.mit-license.org/)
 > It's an interactive application with a real time search that brings together a variety of posts on [Ionic Framework](http://ionicframework.com/) easing your search.
 
